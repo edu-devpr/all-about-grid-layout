@@ -1,0 +1,48 @@
+body {
+    height: 100vh;
+
+    font-family: "poppins";
+    background-color: #ffdead;
+}
+
+.all-about-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 100vh;
+    max-width: 1400px;
+    margin: auto;
+    text-align: center;
+
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.all-about-grid .titulo {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.all-about-grid .conceito {
+    margin-bottom: 50px;
+}
+
+.conceito .perguntas-do-conceito {
+    margin-bottom: 25px;
+
+    border-radius: 10px;
+    padding: 4px;
+
+    font-size: 1em;
+    font-weight: bold;
+
+    background-color: bisque;
+}
+
+.caixa-da-resposta {
+    transition: .4s;
+    border-radius: 10px;
+    box-shadow: 10px 10px 100px #D2691E;
+
+}
